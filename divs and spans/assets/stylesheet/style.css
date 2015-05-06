@@ -1,0 +1,25 @@
+body{
+    background-image: url(http://www.prettydesigns.com/wp-content/uploads/2013/12/3D-Rose-Tattoo-Designs.jpg);
+}
+
+#content {
+    width: 600px;
+    background: #FF6666;
+    border: 40px solid ;
+    padding: 100px; /*Adds 20px of space to all sides*/
+    margin: 100px auto; /* Adds 20px to the top & bottom & centers left/right */
+}
+
+.crazy-color {
+    color: fuchsia;
+}
+
+#footer {
+    background-color: #336699;
+    padding: 20px;
+    border: 10px solid fuchsia;
+    width: 600px;
+    height: 20px;
+    margin: auto;
+    color: #fff;
+}

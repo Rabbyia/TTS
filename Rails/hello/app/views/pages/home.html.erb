@@ -1,0 +1,17 @@
+<center><h1>Rabbyia Shabbir</h1><center>
+	
+<p>This is all about me...my name is <%= @Home.name %></p>
+
+<p>Today is <%= Date.today %>.  Have a great day!</p>
+
+<p>Tomorrow is <%= Date.today + 1 %>. See you then!</p>
+    
+<p><%= Date.today + 1 %><%=@birthdaymessage %></p>
+    
+<h2><%= @message %></h2>
+
+<%= t = Time.new %>
+    
+<p>It is <%= t.strftime("%I:%M") %>.</p>
+    
+<p>My birthday is<%= @Home.birthdate%></p>
